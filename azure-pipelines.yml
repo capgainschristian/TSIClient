@@ -18,7 +18,7 @@ steps:
     python -m pip install --upgrade pip
   displayName: 'Install dependencies'
 
-- #script: |
+#- script: |
 #    pip install pytest pytest-azurepipelines
 #    pytest
 #  displayName: 'pytest'
